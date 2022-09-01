@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Report</title>
+  <link rel="stylesheet" href="mega_project_1.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="section1">
+
+      <div id="header">
+        <h1>Compare rainfall</h1>
+      </div>
+
+      <div id="snapshot1">
+        <h2 id="company"></h2>
+        <p class="text1" id="revenue"></p>
+        <p class="text1" id="marketcap"></p>
+        <p class="text1" id="employees"></p>
+        <p class="text1" id="salesgrowth"></p>
+      </div>
+
+      <div id="snapshot2">
+
+        <div id="fb">
+          <h2></h2>
+          <p></p>
+        </div>
+        <div id="tw">
+          <h2></h2>
+          <p></p>
+        </div>
+        <div id="li">
+          <h2></h2>
+          <p></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="section2">
+
+		<div id="list">
+		  <div>
+			<h3 class="bcbc">Phường/Xã: Bình Chánh - Quận/Huyện: Bình Chánh</h3>
+			<input type="checkbox" class="tcs">
+		  </div>
+		  <div>
+			<h3 class="bcbh">Phường/Xã: Bình Hưng - Quận/Huyện:Bình Chánh </h3>
+			<input type="checkbox" class="infosys">
+		  </div>
+		  <div>
+			<h3 class="bchl">Phường/Xã: Hưng Long - Quận/Huyện:Bình Chánh</h3>
+			<input type="checkbox" class="hcl">
+		  </div>
+		  <div>
+			<h3 class="bcapt">Phường/Xã: An Phú Tây - Quận/Huyện:Bình Chánh</h3>
+			<input type="checkbox" class="wipro">
+		  </div>
+		  <div>
+			<h3 class="bcdp">Phường/Xã: Đa Phước - Quận/Huyện:Bình Chánh</h3>
+			<input type="checkbox" class="mahindra">
+		  </div>
+		  <div>
+			<h3 class="7tp">Phường/Xã:Tân Phong - Quận/Huyện: Quận 7</h3>
+			<input type="checkbox" class="landt">
+		  </div>
+		  <div>
+			<h3 class="BT12">Phường/Xã:Phường 12 - Quận/Huyện: Bình Thạnh</h3>
+			<input type="checkbox" class="mphasis">
+		  </div>
+		  <div>
+			<h3 class="mindtree">Phường/Xã:Phường 5 - Quận/Huyện: 8</h3>
+			<input type="checkbox" class="mindtree">
+		  </div>
+		</div>
+  
+      <div id="charts">
+        <div>
+          <div class='chartarea' id="revenuechart">
+            <p class="charttitle"></p>
+          </div>
+          <div class='chartarea' id="marketcapchart">
+            <p class="charttitle"></p>
+          </div>
+        </div>
+        <div>
+          <div class='chartarea' id="employeechart">
+            <p class="charttitle"></p>
+          </div>
+          <div class='chartarea' id="growthchart">
+            <p class="charttitle"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+   <script src="https://d3js.org/d3.v7.min.js"></script>	
+
+  <!-- <script src="/d3minlib/d3.min_v6.11.js"></script> -->
+  <script src="mega_project_1.js"></script>
+</body>
+
+</html>
